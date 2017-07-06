@@ -27,6 +27,8 @@ setup(
 
     # long_description=open("README.txt").read(),
 
+    keywords = ['slack', 'notifications'],
+
     # Dependent packages (distributions)
     install_requires=[
         "slackclient",
