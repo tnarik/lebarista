@@ -30,5 +30,6 @@ setup(
     # Dependent packages (distributions)
     install_requires=[
         "slackclient",
+        "PyYAML",
     ],
 )
