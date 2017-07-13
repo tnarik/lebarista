@@ -63,6 +63,13 @@ The username and password pairs are the ones you create for your accounts in:
 
 ## Process
 
+Tagging before uploading is always a good idea:
+
+```
+git tag x.y.z -m "Version description"
+git push --tags origin master
+```
+
 To test:
 
 ```
