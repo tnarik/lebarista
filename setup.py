@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     # Application name:
     name="LeBarista",
-    version="0.1.0",
+    version="0.2.0",
 
     # Application author details:
     author="Tnarik Innael",
