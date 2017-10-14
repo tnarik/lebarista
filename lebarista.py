@@ -42,3 +42,6 @@ try:
   #  print("You can use '{}' as an example".format('https://github.com/tnarik/lebarista/blob/master/lebarista.yaml.example'))
 except (ModuleNotFoundError, ImportError):
   print("There won't be any notifications triggered as dependencies are missing. Please reinstall.", file=sys.stderr)
+
+def test():
+  print("my tests")

@@ -27,18 +27,26 @@ slack:
 
 ```
 
+# Development mode
+
+You probably know this already:
+
+```
+pip install -e <Development folder>
+```
+
 # Adding package to PyPI
 
 You don't need to know this, unless you are developing a package based on this, or any other Python Package that you would like to submit to the PyPI.
 
-Just follow the conventions of Python packages (or use any template you want) and apply the configuration and processes described below.
+Just follow the conventions of Python packages (or use any template you fancy). Then apply the configuration and process described below.
 
 
 ## Configuration
 
 You need a `~/.pypirc` configuration file to indicate your credentials and the repositories to use.
 
-Currently, this is the setup that works for me (I had some issues with the repository URLs indicated in some tutorials due to the migration of the API).
+This is the setup that works for me currently (I had some issues with the repository URLs indicated in some tutorials due to the migration of the API).
 
 ```
 [distutils]

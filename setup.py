@@ -12,6 +12,8 @@ setup(
 
     url="https://github.com/tnarik/lebarista",
 
+    # Scripts
+    scripts=["scripts/lebarista-config"],
     # Modules
     py_modules=["lebarista"],
 
